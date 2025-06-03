@@ -18,7 +18,10 @@ int main() {
     
     srand(time(0)); // generates number on every program run
 
-    int randomNum = (rand() % 8) + 1; // generates random numbers from 1-8
+    int rand1 = (rand() % 8) + 1; // generates random numbers from 1-8
 
-    cout << randomNum;
+    int rand2 = (rand() % 8) + 1;
+
+    cout << rand1;
+    cout << rand2;
 }
