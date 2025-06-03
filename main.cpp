@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 
 using namespace std;
 
@@ -13,4 +14,8 @@ int main() {
         "Big Rock Island", 
         "Valley Island"
     };
+    
+    int randomNum = (rand() % 8) + 1; // generates random numbers from 1-8
+
+    cout << randomNum;
 }
