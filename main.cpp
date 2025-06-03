@@ -22,6 +22,5 @@ int main() {
 
     int rand2 = (rand() % 8) + 1;
 
-    cout << rand1;
-    cout << rand2;
+    cout << locations[rand1] + " to " + locations[rand2];
 }
